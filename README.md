@@ -4,14 +4,14 @@ Este é um projeto simples de **ETL (Extract, Transform, Load)** que desenvolvi 
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 O objetivo foi pegar um dataset bruto de corridas da Uber, limpar os dados, transformar alguns campos e depois carregar em um banco MySQL para consultas futuras.  
 Além da prática com SQLAlchemy e PyMySQL, também aproveitei para organizar o fluxo em um script de ETL básico.
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 - `data/Uber_Dataset.csv` → dataset bruto
 - `etl.py` → script com o pipeline de ETL
@@ -20,7 +20,7 @@ Além da prática com SQLAlchemy e PyMySQL, também aproveitei para organizar o 
 
 ---
 
-## 🔄 Fluxo do ETL
+## Fluxo do ETL
 
 1. **Extract**  
    - Leitura do arquivo CSV com pandas.
@@ -39,7 +39,7 @@ Além da prática com SQLAlchemy e PyMySQL, também aproveitei para organizar o 
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 1. Clone este repositório:
    ```bash
@@ -66,7 +66,7 @@ Além da prática com SQLAlchemy e PyMySQL, também aproveitei para organizar o 
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python**: Pandas, SQLAlchemy, PyMySQL
 - **MySQL**: Banco de dados relacional
